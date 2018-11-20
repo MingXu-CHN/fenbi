@@ -1,0 +1,356 @@
+#truman-body {
+	display: block;
+	background: #fff;
+	min-width: 1200px;
+	min-height:538px;
+}
+
+.modal.in .modal-dialog {
+	transform: translate(0, 50px);
+	width: 430px;
+	height: 419px
+}
+
+.modal-content>div {
+	width: 430px;
+	min-height: 419px;
+	background: #fff
+}
+
+.modal-title {
+	font-size: 20px;
+	color: #666;
+	letter-spacing: -.29px
+}
+
+.forget-input-phone-number input, .form-group.forget-input-new-password input,
+	.phone-number>input {
+	width: 328px;
+	color: #999;
+	letter-spacing: -.26px;
+	border: 1px solid #dfdfdf;
+	height: 48px;
+	font-size: 18px
+}
+
+.phone-number {
+	display: inline-block;
+	width: 328px;
+	height: 48px;
+	margin-top: 24px
+}
+
+.phone-number>input {
+	text-align: left
+}
+
+.forget-input-phone-number {
+	display: inline-block;
+	width: 328px;
+	height: 48px;
+	margin-top: 24px
+}
+
+.forget-input-phone-number input {
+	text-align: left
+}
+
+.form-group.forget-input-new-password {
+	display: inline-block;
+	width: 328px;
+	height: 48px;
+	margin-bottom: 24px
+}
+
+.forget-phone-password>.phone-number, .forget-phone-toolinfo,
+	.newpassword-toolinfo {
+	margin-bottom: 20px
+}
+
+.form-group.forget-input-new-password input {
+	text-align: left
+}
+
+.form-group .login, .verification-code-input {
+	width: 330px;
+	margin-top: 10px;
+	display: inline-block
+}
+.login input{
+	font-size: 30px;
+    height: 100%;
+    background: #09f;
+    width: 100%;
+    border: 0;
+}
+
+.form-group .login {
+	background: #09f;
+	height: 50px
+}
+
+.form-group .login:hover {
+	cursor: pointer
+}
+
+.form-group .login a {
+	font-size: 22px;
+	color: #fff;
+	letter-spacing: -.21px;
+	line-height: 22px;
+	text-align: left;
+	vertical-align: -20px
+}
+
+.verification-code-input>input {
+	display: inline-block;
+	border: 1px solid #dfdfdf;
+	width: 188px;
+	height: 48px;
+	font-size: 18px;
+	color: #999;
+	letter-spacing: -.26px;
+	text-align: left
+}
+
+.verification-code-input>button, .verification-code-input>button.disabled
+	{
+	width: 120px;
+	height: 48px;
+	font-size: 18px;
+	letter-spacing: -.17px;
+	line-height: 18px;
+	text-align: center;
+	margin-left: 16px
+}
+
+.verification-code-input>button {
+	background: #fff;
+	border: 1px solid #09f;
+	color: #09f
+}
+
+.verification-code-input>button.disabled {
+	background: #dfdfdf;
+	border: 1px solid #dfdfdf;
+	color: #fff
+}
+
+.forget-input-password-info {
+	display: inline-block;
+	width: 330px;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #666;
+	text-align: left
+}
+
+.login {
+	font-size: 18px;
+	color: #fff;
+	background-color: orange
+}
+
+.forgetPassword, .forgetPassword a {
+	color: #666;
+	letter-spacing: -.21px;
+	font-size: 14px
+}
+
+.login-password-filter {
+	display: inline-block;
+	width: 330px;
+	height: 30px;
+	margin-top: 20px
+}
+
+.forgetPassword {
+	width: 63px;
+	display: inline-block
+}
+
+.forgetPassword a {
+	text-align: center
+}
+
+.forget-input-phone {
+	height: 480px
+}
+
+.forget-email-send, .forget-phone-code, .forget-phone-password {
+	height: 290px
+}
+
+.forget-reset-button {
+	margin-top: 20px
+}
+
+.forget-phone-toolinfo-number {
+	font-size: 14px;
+	color: #333;
+	letter-spacing: -.34px;
+	text-align: left;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	margin-top: 15px
+}
+
+.forget-phone-toolinfo text {
+	font-size: 24px;
+	color: #333;
+	letter-spacing: -.58px;
+	line-height: 24px;
+	text-align: left
+}
+
+.newpassword-toolinfo {
+	font-size: 14px;
+	color: #333;
+	letter-spacing: -.34px;
+	text-align: left
+}
+
+.longinPassword, .longinPassword a {
+	color: #666;
+	text-align: right;
+	font-size: 14px;
+	letter-spacing: -.21px
+}
+
+.longinPassword {
+	width: 49%;
+	display: inline-block
+}
+
+.registered a {
+	display: inline-block;
+	width: 95px;
+	font-size: 14px;
+	color: #09f;
+	letter-spacing: -.21px;
+	text-align: center;
+	vertical-align: -4px;
+	cursor: pointer
+}
+
+.registered-split {
+	display: inline-block;
+	background: #dfdfdf;
+	width: 117px;
+	height: 1px
+}
+
+.password-code-image-input input, .password-code-input>input {
+	height: 48px;
+	letter-spacing: -.26px;
+	border: 1px solid #dfdfdf;
+	font-size: 18px;
+	color: #999;
+	text-align: left
+}
+
+.password-code-input {
+	display: inline-block;
+	width: 330px;
+	margin-top: 10px
+}
+
+.password-code-input>input {
+	display: inline-block;
+	width: 328px
+}
+
+.password-code-image-input {
+	display: none;
+	width: 340px;
+	margin-top: 10px
+}
+
+.password-code-image-input input {
+	display: inline-block;
+	width: 200px;
+	vertical-align: top
+}
+
+.password-code-image-input #loginCodeImage {
+	display: inline-block;
+	border: 1px solid #dfdfdf;
+	width: 130px;
+	height: 46px;
+	font-size: 18px;
+	color: #999;
+	vertical-align: top;
+	cursor: pointer
+}
+
+.has-registered {
+	display: inline-block;
+	width: 330px;
+	height: 40px;
+	margin-top: 20px
+}
+
+.login-illegal-tooltip {
+	visibility: hidden;
+	font-size: 12px;
+	color: #fa2c2c;
+	letter-spacing: -.18px;
+	text-align: left;
+	padding-top: 10px
+}
+
+.login-illegal-tooltip .tooltip-icon {
+	display: inline-block;
+	background-image:
+		url(../images/login/tooltip.67c428f9.png);
+	background-repeat: no-repeat;
+	width: 12px;
+	height: 12px;
+	vertical-align: -2px
+}
+
+.form-control:focus {
+	border-color: #09f
+}
+
+.form-group {
+	margin-bottom: 0
+}
+
+.newpassword-toolinfo {
+	display: inline-block;
+	width: 300px
+}
+
+.glyphicon.glyphicon-eye-close, .glyphicon.glyphicon-eye-open {
+	display: inline-block;
+	position: relative;
+	top: 47px
+}
+
+#forgetPasswordPage {
+	height: 600px
+}
+
+form {
+	width:500px;
+	margin:50px auto;
+	padding:2px;
+}
+
+.error-msg {
+	text-align: left;
+}
+.error-msg {
+	margin-top: 10px;
+	margin-left: 90px;
+	color: red;
+}
+.error-icon {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: url('../images/login/tooltip.67c428f9.png') no-repeat left;
+}
+
+

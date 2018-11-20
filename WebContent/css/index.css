@@ -1,0 +1,234 @@
+.truman-body-image-jpg2, .truman-body-image1 .truman-body-image-jpg1 {
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+	display: inline-block;
+	min-width: 1200px
+}
+
+#truman-body {
+	/* min-height: 2800px */
+}
+
+.truman-body-image1 {
+	min-width: 1200px;
+	height: 600px
+}
+
+.truman-body-image1 .truman-body-image-left {
+	display: inline-block;
+	width: 1000px;
+	height: 600px;
+	background-image: url(../images/index/leftfor.aa3e9837.png);
+	z-index: 4;
+	position: absolute;
+	left: 0
+}
+
+.truman-body-image1 .truman-body-image-right {
+	display: inline-block;
+	width: 1000px;
+	height: 600px;
+	background-image:
+		url(../images/index/rightfor.a7dd7a02.png);
+	z-index: 5;
+	position: absolute;
+	right: 0
+}
+
+.truman-body-image1 .truman-body-image-jpg1 {
+	background-image:
+		url(../images/index/index1.7b708c07.png);
+	z-index: 10;
+	position: relative
+}
+
+.truman-body-image2 {
+	min-width: 1200px;
+	height: 600px
+}
+
+.truman-body-image-jpg2 {
+	background-image:
+		url(../images/index/index2.3523cf4a.png)
+}
+
+.truman-body-image3 {
+	min-width: 1200px;
+	height: 600px;
+	background: #f5f5f5
+}
+
+.truman-body-image-jpg3 {
+	display: inline-block;
+	height: 600px;
+	min-width: 1200px;
+	background-image:
+		url(../images/index/index3.b0a9c8ce.png);
+	background-repeat: no-repeat;
+	background-position: center
+}
+
+.truman-body-image4 {
+	min-width: 1200px;
+	height: 1336px
+}
+
+.truman-body-image4 .truman-body-image-jpg4 {
+	display: inline-block;
+	height: 1336px;
+	min-width: 1200px;
+	padding-top: 44px;
+	padding-bottom: 50px
+}
+
+.truman-body-image4 .truman-body-image-jpg4 .index-split-line {
+	background: #dfdfdf;
+	height: 1px
+}
+
+.truman-body-image4 .truman-body-image-jpg4 .media-info {
+	height: 420px;
+	padding-top: 40px;
+	padding-bottom: 40px
+}
+
+.truman-body-image4 .truman-body-image-jpg4 .media-info .media-info-image
+	{
+	display: inline-block;
+	height: 340px;
+	width: 600px
+}
+
+.truman-body-image4 .truman-body-image-jpg4 .media-info .image-news1 {
+	background-image:
+		url(../images/index/news1.a127175e.png);
+	background-repeat: no-repeat
+}
+
+.truman-body-image4 .truman-body-image-jpg4 .media-info .image-news2 {
+	background-image:
+		url(../images/index/news2.fa404899.png);
+	background-repeat: no-repeat
+}
+
+.truman-body-image4 .truman-body-image-jpg4 .media-info .image-news3 {
+	background-image:
+		url(../images/index/news3.974d6b66.png);
+	background-repeat: no-repeat
+}
+
+.truman-body-image4 .truman-body-image-jpg4 .media-info .media-info-detail
+	{
+	display: inline-block;
+	height: 340px;
+	width: 580px;
+	vertical-align: top;
+	padding-left: 25px
+}
+
+.truman-body-image4 .truman-body-image-jpg4 .media-info .media-info-detail .media-info-title
+	{
+	height: 102px;
+	font-size: 34px;
+	color: #333;
+	letter-spacing: -.82px;
+	line-height: 51px
+}
+
+.truman-body-image4 .truman-body-image-jpg4 .media-info .media-info-detail .media-info-title a
+	{
+	color: #000;
+	text-decoration: none
+}
+
+.truman-body-image4 .truman-body-image-jpg4 .media-info .media-info-detail .media-info-title a:hover
+	{
+	border-bottom: 2px solid #000
+}
+
+.truman-body-image4 .truman-body-image-jpg4 .media-info .media-info-detail .media-info-time
+	{
+	height: 30px;
+	font-size: 16px;
+	color: #333;
+	letter-spacing: -.38px;
+	line-height: 30px;
+	margin-top: 8px;
+	margin-bottom: 13px
+}
+
+.truman-body-image4 .truman-body-image-jpg4 .media-info .media-info-detail .media-info-time .media-info-time-image
+	{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background-image:
+		url(../images/course/time.4d6f094a.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	margin-top: 6px
+}
+
+.truman-body-image4 .truman-body-image-jpg4 .media-info .media-info-detail .media-info-time .media-info-time-author
+	{
+	display: inline-block;
+	padding-left: 20px
+}
+
+.truman-body-image4 .truman-body-image-jpg4 .media-info .media-info-detail .media-info-text
+	{
+	height: 180px;
+	width: 560px;
+	font-size: 20px;
+	color: #333;
+	letter-spacing: -.68px;
+	line-height: 30px;
+	font-weight: 200;
+	text-align: justify
+}
+
+.truman-body-image5 {
+	min-width: 1200px;
+	height: 495px;
+	background: #f5f5f5
+}
+
+.truman-body-image-jpg5, .truman-body-image-jpg6 {
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block
+}
+
+.truman-body-image-jpg5 {
+	height: 495px;
+	min-width: 1200px;
+	background-image:
+		url(../images/index/index5.abfbc723.png)
+}
+
+.truman-body-image-jpg6, .truman-body-image6 {
+	height: 610px;
+	min-width: 1200px
+}
+
+.truman-body-image-jpg6 {
+	background-image:
+		url(../images/index/index6.cf04d81f.png)
+}
+
+.truman-body-image7 {
+	min-width: 1200px;
+	height: 726px;
+	background: #f5f5f5
+}
+
+.truman-body-image-jpg7 {
+	display: inline-block;
+	height: 726px;
+	min-width: 1200px;
+	background-image:
+		url(../images/index/index7.c0425c52.png);
+	background-repeat: no-repeat;
+	background-position: center
+}

@@ -1,0 +1,235 @@
+a, a:hover {
+	color: #09f
+}
+a:active{
+	color:#fff
+}
+
+.content-logon-success a:hover, .header-content-logon a:hover,
+	.header-filter-content .content-filters:hover, a {
+	cursor: pointer
+}
+
+* {
+	font-family: Microsoft JhengHei;
+	line-height: 1;
+	outline: 0;
+	padding: 0;
+	margin: 0
+}
+
+button {
+	border: none
+}
+
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover,
+	.pagination>.disabled>span, .pagination>.disabled>span:focus,
+	.pagination>.disabled>span:hover, .pagination>li>a, .pagination>li>a:hover
+	{
+	color: #999
+}
+
+.pagination>.active>a, .pagination>.active>a:hover {
+	background-color: #09f;
+	border-color: #09f
+}
+
+.btn:active:focus, .btn:focus, button:focus {
+	outline: 0;
+	border: none
+}
+
+#truman-header {
+	background-color: #2e3033;
+	min-width: 1200px;
+	height: 60px
+}
+
+#headercontent {
+	display: inline-block;
+	min-width: 1200px;
+	height: 60px
+}
+
+#headercontent>div {
+	display: inline-block
+}
+
+.header-content-image {
+	width: 350px;
+	height: 60px;
+	background-image: url(../images/header/logo.332af9e4.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	margin-top: 19px
+}
+
+.header-filter-content {
+	height: 60px;
+	width: 520px;
+	vertical-align: top
+}
+
+.header-filter-content .content-filters {
+	display: inline-block;
+	width: 100px;
+	height: 60px;
+	vertical-align: bottom
+}
+
+.header-filter-content .content-filters span {
+	display: inline-block;
+	font-size: 16px;
+	text-decoration: none;
+	color: #999;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%)
+}
+
+.header-filter-content .content-filters.active {
+	background: #484a4c
+}
+
+.header-filter-content .content-filters span.active {
+	color: #fff
+}
+
+.header-content-logon {
+	display: none;
+	height: 60px;
+	width: 310px;
+	vertical-align: top
+}
+
+.header-content-logon a {
+	display: inline-block;
+	font-size: 16px;
+	height: 32px;
+	width: 70px;
+	text-decoration: none;
+	color: #999;
+	background: #505050;
+	margin-right: -4px;
+	position: relative;
+	top: 14px;
+	text-align: center
+}
+
+.content-logon-success .user-name, .content-logon-success .user-split {
+	color: #fff;
+	text-align: left;
+	position: relative;
+	font-size: 16px;
+	letter-spacing: -.29px
+}
+
+.header-content-logon a span {
+	position: relative;
+	top: 8px
+}
+
+.header-content-logon a.active {
+	display: inline-block;
+	background: #09f;
+	text-decoration: none;
+	color: #fff
+}
+
+.content-logon-success {
+	height: 60px;
+	width: 310px;
+	vertical-align: top
+}
+
+.show-logout {
+	display: inline-block;
+	height: 50px
+}
+
+.content-logon-success .user-icon {
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	background-repeat: no-repeat;
+	background-image: url(../images/header/usericon.png);
+	position: relative;
+	top: 17px
+}
+
+.action-icon.icon-close, .action-icon.icon-open {
+	width: 20px;
+	background-repeat: no-repeat;
+	vertical-align: top;
+	margin-top: 20px;
+	margin-left: 5px;
+	height: 20px;
+	display: inline-block
+}
+
+.content-logon-success .user-name {
+	display: inline-block;
+	height: 20px;
+	top: 3px;
+	cursor: pointer
+}
+
+.action-icon.icon-open {
+	background-image:
+		url(../images/header/open.41db0ac8.png)
+}
+
+.action-icon.icon-close {
+	background-image:
+		url(../images/header/close.49af437f.png)
+}
+
+.content-logon-success .user-split {
+	display: inline-block;
+	height: 20px;
+	top: 24px;
+	margin-left: 15px
+}
+
+.content-logon-success a {
+	display: inline-block;
+	font-size: 16px;
+	height: 32px;
+	/* width: 60px; */
+	text-decoration: none;
+	color: #999;
+	margin-right: -4px;
+	/* position: relative; */
+	/* top: 14px; */
+	text-align: center
+}
+
+.content-logon-success a span {
+	position: relative;
+	bottom: 8px
+}
+
+.content-logon-success a.active {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff
+}
+
+#userlogout {
+	display: none;
+	position: relative;
+	background: #f0f0f0;
+	border: 1px solid #dfdfdf;
+	width: 150px;
+	height: 48px;
+	top: -1px;
+	left: 160px
+}
+
+#userlogout .popover-content {
+	font-size: 16px;
+	color: #666;
+	letter-spacing: -.29px;
+	text-align: center;
+	margin-top: 5px
+}

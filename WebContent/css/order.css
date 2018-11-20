@@ -1,0 +1,568 @@
+#province_code,#city_code,#county_code{
+	height: 30px;
+}
+
+.course-order-class,.course-order-title {
+	letter-spacing: -.43px;
+	padding-left: 25px;
+	text-align: left
+}
+.course-user-address.true>.user-address-hasdefault {
+	display: inline-block;
+	border: 1px solid #f60;
+	width: 1138px;
+	min-height: 45px;
+	margin-top: 18px
+}
+.user-address-hasdefault a,.user-address-hasdefault span {
+	font-size: 16px;
+	letter-spacing: -.38px;
+	line-height: 16px;
+	vertical-align: middle
+}
+.course-user-address.false>.user-address-hasdefault {
+	display: none;
+	height: 75px
+}
+.user-address-hasdefault span {
+	display: inline-block;
+	width: 980px;
+	color: #333;
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-right: 20px
+}
+.user-address-hasdefault .location-icon {
+	margin-right: 10px;
+	margin-left: 18px;
+	margin-top: 12px;
+	vertical-align: middle;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-image: url(../images/order/location.d4086981.png);
+	width: 20px;
+	height: 20px
+}
+
+.user-address-hasdefault a {
+	display: inline-block;
+	color: #f60;
+	text-align: right
+}
+
+#truman-body {
+	min-width: 1200px;
+	background: #fff
+}
+
+#orderDetail {
+	display: inline-block;
+	width: 1200px;
+	background: #fff;
+	min-height: 760px
+}
+
+.course-order-navi {
+	height: 69px
+}
+
+.course-order-navi span {
+	display: inline-block;
+	margin-top: 22px;
+	font-size: 24px;
+	color: #333;
+	letter-spacing: -.43px;
+	line-height: 24px;
+	text-align: left
+}
+
+.truman-body-order {
+	background: #fff;
+	border: 1px solid #dfdfdf;
+	width: 1198px;
+	min-height: 653px;
+	margin-bottom: 45px
+}
+
+.course-order-info {
+	height: 147px
+}
+
+.course-order-info-left {
+	display: inline-block;
+	width: 900px
+}
+
+.course-order-info-right {
+	width: 270px
+}
+
+.course-order-title {
+	font-size: 24px;
+	height: 60px;
+	color: #333;
+	line-height: 30px;
+	margin-top: 30px
+}
+
+.course-order-class {
+	font-size: 18px;
+	color: #666;
+	line-height: 14px
+}
+
+.course-order-class .time-icon {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	vertical-align: -4px;
+	background-image: url(../images/course/time.4d6f094a.png);
+	background-repeat: no-repeat
+}
+
+.course-order-info-right {
+	display: inline-block;
+	border-left: 1px solid #dfdfdf;
+	height: 108px;
+	vertical-align: top;
+	margin-top: 20px
+}
+
+.info-money-course {
+	display: inline-block;
+	width: 100px;
+	font-size: 16px;
+	color: #666;
+	letter-spacing: -.38px;
+	line-height: 14px;
+	padding-left: 18px;
+	padding-top: 86px
+}
+
+.info-money-price {
+	display: inline-block;
+	width: 145px;
+	vertical-align: -4px
+}
+
+.info-money-unit {
+	font-size: 24px;
+	color: #f60;
+	letter-spacing: -.58px;
+	text-align: left
+}
+
+.info-money {
+	font-size: 48px;
+	color: #f60;
+	letter-spacing: -1.15px;
+	text-align: left;
+	vertical-align: -4px
+}
+
+.course-user-address,.course-user-address.true {
+	min-height: 160px
+}
+
+.course-user-address.false {
+	height: 470px
+}
+
+.course-user-address-info {
+	padding-top: 30px;
+	padding-left: 30px;
+	font-size: 18px;
+	color: #666;
+	letter-spacing: -.32px;
+	line-height: 30px;
+	text-align: left
+}
+
+.course-user-address-info span {
+	font-size: 24px;
+	color: #333;
+	letter-spacing: -.43px;
+	line-height: 26px;
+	text-align: left
+}
+.course-user-address.false>.user-address-nodefault {
+	display: block;
+	height: 400px
+}
+.course-user-address.true>.user-address-nodefault {
+	display: none;
+	height: 400px
+}
+.course-order-name {
+	font-size: 18px
+}
+
+.split-line {
+	display: inline-block;
+	background: #dfdfdf;
+	width: 1138px;
+	height: 1px
+}
+
+.add-user-address,.add-user-address:focus {
+	border: 1px solid #f60;
+	border-radius: 4px;
+	background: #fff;
+	width: 198px;
+	height: 48px;
+	font-size: 22px;
+	color: #f60;
+	letter-spacing: -.21px;
+	line-height: 22px;
+	text-align: center;
+	outline: 0;
+	margin-top: 18px;
+	margin-left: 30px
+}
+
+.course-order-pay {
+	min-height: 205px;
+	margin-bottom: -11px
+}
+
+.course-order-pay .split-line {
+	margin-bottom: -2px
+}
+
+.course-order-pay-title {
+	font-size: 24px;
+	color: #333;
+	letter-spacing: -.43px;
+	line-height: 30px;
+	text-align: left;
+	padding-top: 19px;
+	padding-left: 30px;
+	padding-bottom: 10px
+}
+
+.course-order-pay-way {
+	display: inline-block;
+	background: #fff;
+	width: 1196px;
+	height: 70px;
+	margin: 0;
+	padding-left: 30px;
+	padding-top: 11px
+}
+
+.course-order-pay-way.first-child {
+	margin-bottom: -18px
+}
+
+.course-order-pay-way:active,.course-order-pay-way:hover {
+	background: #f0f0f8
+}
+
+.weixin-pay-ico,.zhifubao-pay-ico {
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	vertical-align: -25px;
+	background-repeat: no-repeat
+}
+
+.course-order-pay-way input {
+	background-color: #f60;
+	margin-right: 20px
+}
+
+.course-order-pay-way span {
+	font-size: 18px;
+	color: #666;
+	letter-spacing: -.32px;
+	line-height: 18px;
+	text-align: left
+}
+
+.zhifubao-pay-ico {
+	background-image: url(../images/order/zhifubao.23a1e844.png)
+}
+
+.weixin-pay-ico {
+	background-image: url(../images/order/weixin.6f3a4f52.png)
+}
+
+.course-order-pay-way .course-order-pay-right {
+	display: none
+}
+
+.course-order-pay-left {
+	display: inline-block;
+	width: 800px;
+	height: 57px;
+	cursor: pointer
+}
+
+.course-order-pay-way.active {
+	background-color: #f0f0f8
+}
+
+.course-order-pay-way.active .course-order-pay-right {
+	display: inline-block;
+	width: 330px;
+	vertical-align: -20px
+}
+
+.course-order-pay-left .payradio,.course-order-pay-left .payradio.selected {
+	width: 12px;
+	height: 12px;
+	background-size: contain;
+	margin-right: 20px;
+	background-repeat: no-repeat;
+	vertical-align: -20px;
+	display: inline-block;
+	cursor: pointer
+}
+
+.course-order-pay-left .payradio.selected {
+	background-image: url(../images/order/selected.a92be161.png)
+}
+
+.course-order-pay-left .payradio {
+	background-image: url(../images/order/notselected.f19f6a08.png)
+}
+
+.course-order-pay-way .info-money-unit {
+	font-size: 24px;
+	color: #f60;
+	vertical-align: -9px;
+	text-align: left;
+	padding-left: 80px
+}
+
+.course-order-pay-way .info-money {
+	font-size: 48px;
+	color: #f60;
+	vertical-align: -10px;
+	text-align: left
+}
+
+.order-pay-text {
+	display: inline-block;
+	width: 100px;
+	vertical-align: -20px
+}
+
+.pay-content {
+	height: 100px
+}
+
+.pay-button,.pay-button:active,.pay-button:focus {
+	background: #f60;
+	border-radius: 4px;
+	width: 200px;
+	height: 50px;
+	font-size: 22px;
+	color: #fff;
+	letter-spacing: -.21px;
+	line-height: 22px;
+	text-align: center;
+	outline: 0;
+	margin-top: 20px;
+	margin-right: 30px
+}
+
+.xianxiaimage.xianxia1 {
+	display: none;
+	vertical-align: -4px
+}
+
+.xianxiaimage.xianxia-1 {
+	display: inline-block;
+	width: 60px;
+	height: 22px;
+	vertical-align: -2px;
+	background-repeat: no-repeat;
+	background-image: url(../images/course/xianxia.216961b4.png)
+}
+
+.user-address-input {
+	display: block;
+	height: 70px;
+	margin-left: 30px;
+	margin-top: 20px
+}
+
+.address-illegal-tooltip {
+	visibility: hidden;
+	margin-top: 10px;
+	margin-left: 105px;
+	color: red
+}
+
+.user-address-input-title {
+	display: inline-block;
+	width: 100px;
+	font-size: 16px;
+	color: #333;
+	letter-spacing: 0;
+	text-align: left;
+	vertical-align: top
+}
+
+.user-address-input-title text {
+	color: red
+}
+
+.user-address-input input {
+	display: inline-block;
+	background: #fafafa;
+	border: 1px solid #dfdfdf;
+	width: 398px;
+	height: 32px
+}
+
+.user-address-detailinput {
+	display: inline-block;
+	height: 120px;
+	margin-left: 30px
+}
+
+.tooltip-icon {
+	display: inline-block;
+	background-image: url(../images/login/tooltip.67c428f9.png);
+	background-repeat: no-repeat;
+	width: 12px;
+	height: 12px;
+	vertical-align: -2px
+}
+
+#userAgreementModal .modal-dialog {
+	width: 900px;
+	height: 600px;
+	transform: translate(0,30px)
+}
+
+#userAgreementModal #userAgreement {
+	width: 900px;
+	height: 600px
+}
+
+#userAgreementModal #userAgreement .modal-header {
+	border-bottom: none
+}
+
+#userAgreementModal #userAgreement .modal-title {
+	font-size: 16px;
+	color: #333;
+	margin-top: 15px;
+	margin-bottom: 30px
+}
+
+#userAgreementModal #userAgreement .agreement-detail {
+	display: inline-block;
+	height: 420px;
+	width: 840px;
+	border: 1px solid #dfdfdf;
+	overflow-y: scroll;
+	padding-left: 30px;
+	padding-right: 30px
+}
+
+#userAgreementModal #userAgreement .agreement-detail .bold {
+	font-weight: 700
+}
+
+#userAgreementModal #userAgreement .agreement-detail .title {
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 30px
+}
+
+#userAgreementModal #userAgreement .agreement-detail .subtitle {
+	font-size: 16px;
+	color: #333;
+	text-align: left;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	font-weight: 700
+}
+
+#userAgreementModal #userAgreement .agreement-detail .underline {
+	text-decoration: underline
+}
+
+#userAgreementModal #userAgreement .agreement-detail p {
+	font-size: 14px;
+	color: #333;
+	line-height: 20px;
+	text-align: left
+}
+
+#userAgreementModal #userAgreement .agreement-action {
+	height: 100px
+}
+
+#userAgreementModal #userAgreement .agreement-action .agreement-action-agree {
+	display: inline-block;
+	width: 440px
+}
+
+#userAgreementModal #userAgreement .agreement-action .agreement-action-agree .agreement-action-button {
+	display: inline-block;
+	cursor: pointer;
+	height: 14px;
+	width: 14px;
+	margin-top: 25px;
+	background-image: url(../images/order/agreementurl.bb3398fb.png)
+}
+
+#userAgreementModal #userAgreement .agreement-action .agreement-action-agree .agreement-action-button.checked {
+	background-image: url(../images/order/agreementurl-checked.16e6bb4f.png)
+}
+
+#userAgreementModal #userAgreement .agreement-action .agreement-action-agree .agreement-action-title {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 14px;
+	color: #666;
+	margin-top: 25px;
+	vertical-align: top
+}
+
+#userAgreementModal #userAgreement .agreement-action .agreement-action-next {
+	display: inline-block;
+	width: 400px
+}
+
+#userAgreementModal #userAgreement .agreement-action .agreement-action-next .agreement-action-next-button {
+	display: inline-block;
+	background: #09f;
+	border-radius: 4px;
+	width: 180px;
+	height: 44px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 10px
+}
+
+#userAgreementModal #userAgreement .agreement-action .agreement-action-next .agreement-action-next-button span {
+	font-size: 18px;
+	color: #fff;
+	line-height: 44px
+}
+
+#userAgreementModal #userAgreement .agreement-action .agreement-action-next .agreement-action-next-button.disabled {
+	background: #f0f0f8
+}
+
+#userAgreementModal #userAgreement .agreement-action .agreement-action-next .agreement-action-next-button.disabled span {
+	color: #999
+}
+
+#userAgreementModal #userAgreement .agreement-action .agreement-action-next .agreement-action-next-button.enabled {
+	background: #09f
+}
+
+#userAgreementModal #userAgreement .agreement-action .agreement-action-next .agreement-action-next-button.enabled span {
+	color: #fff
+}

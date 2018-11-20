@@ -1,0 +1,462 @@
+#truman-body, #truman-body-course {
+	background: #fff;
+	min-width: 1200px
+}
+
+.truman-filter-item>button, .truman-filter-item>button li {
+	font-size: 16px;
+	color: #333;
+	letter-spacing: -.29px;
+	text-align: left
+}
+
+#truman-body-course {
+	display: block;
+}
+
+.truman-body-filters {
+	display: block;
+	background: #f7f8f8;
+	min-width: 1200px;
+	height: 60px
+}
+
+.truman-filters-detail {
+	display: inline-block;
+	background: #f7f8f8;
+	width: 1200px;
+	height: 60px
+}
+
+.truman-filter-item>button {
+	background: 0 0;
+	height: 40px;
+	margin-top: 10px
+}
+
+.truman-filter-item>button:hover {
+	background: #e6e6e6
+}
+
+.truman-filter-item.open>button, .truman-filter-item>button.choosing {
+	background: #e6e6e6;
+	box-shadow: inset 0 0 4px 0 #dfdfdf;
+	height: 40px;
+	margin-top: 10px;
+	font-size: 16px;
+	color: #333;
+	letter-spacing: -.29px;
+	text-align: left
+}
+
+.btn.active:focus {
+	outline: 0
+}
+
+.truman-filter-item>button li {
+	background: #fff;
+	border: 1px solid #dfdfdf;
+	width: 182px;
+	height: 38px
+}
+
+.truman-filter-item li.choose a {
+	color: #09f
+}
+
+.truman-filter-item ul {
+	margin-top: -2px
+}
+
+.truman-course-detail {
+	display: inline-block;
+	background: #fff;
+	width: 1220px;
+	min-height: 650px;
+	margin-top: 20px;
+	margin-left: -15px;
+	padding-bottom: 35px
+}
+
+.truman-body-course-info, .truman-body-course-info.lectureset {
+	background-color: #fff;
+	width: 388px;
+	margin-top: 20px;
+	margin-left: 15px;
+	border: 1px solid #dfdfdf;
+	vertical-align: top;
+	display: inline-block
+}
+
+.truman-body-course-info {
+	height: 348px;
+	cursor: pointer
+}
+
+.truman-body-course-info:hover {
+	position: relative;
+	top: -4px;
+	box-shadow: 4px 4px 4px #e6e6e6
+}
+
+.truman-body-course-info.lectureset {
+	height: 340px
+}
+
+.truman-body-course-info.lectureset .lectureSetSummary-1 {
+	display: inline-block;
+	height: 5px;
+	width: 378px;
+	background: #fff;
+	border: 1px solid #dfdfdf;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-top: -3px
+}
+
+.truman-body-course-info.lectureset .lectureSetSummary-2 {
+	display: inline-block;
+	height: 5px;
+	width: 368px;
+	background: #fff;
+	border: 1px solid #dfdfdf;
+	vertical-align: top;
+	margin-left: 10px;
+	margin-top: -13px
+}
+
+.truman-body-course-info.lectureset .course-info-student-number {
+	display: inline-block;
+	height: 60px;
+	width: 120px;
+	margin-left: 20px;
+	margin-top: 18px;
+	font-size: 14px;
+	color: #666;
+	letter-spacing: -.34px;
+	line-height: 12px;
+	text-align: left;
+	vertical-align: top
+}
+
+.truman-body-course-info.lectureset .course-info-price {
+	display: inline-block;
+	height: 60px;
+	width: 215px;
+	font-size: 24px;
+	color: #f60;
+	letter-spacing: -.58px;
+	text-align: right;
+	margin-right: 15px;
+	vertical-align: top;
+	margin-top: 21px
+}
+
+.course-info-class, .course-info-student-number, .course-info-title {
+	margin-left: 20px;
+	text-align: left
+}
+
+.course-info-title {
+	margin-top: 20px;
+	width: 348px;
+	height: 60px;
+	font-size: 20px;
+	color: #333;
+	letter-spacing: -.36px;
+	line-height: 30px;
+	overflow: hidden
+}
+
+.course-info-title img {
+	display: inline-block;
+	vertical-align: -4px
+}
+
+.xianxiaimage.xianxia1 {
+	display: none;
+	vertical-align: -4px
+}
+
+.xianxiaimage.xianxia-1 {
+	display: inline-block;
+	width: 60px;
+	height: 22px;
+	vertical-align: -4px;
+	background-repeat: no-repeat;
+	background-image: url(../images/course/xianxia.216961b4.png)
+}
+
+.course-info-class {
+	font-size: 18px;
+	color: #666;
+	letter-spacing: -.43px;
+	line-height: 14px
+}
+
+.course-info-student-number, .course-info-teacher-item p {
+	font-size: 14px;
+	color: #666;
+	letter-spacing: -.34px
+}
+
+.course-info-class .time-icon {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	vertical-align: -4px;
+	background-image:
+		url(//fb.fbstatic.cn/web/images/course/time.4d6f094a.png);
+	background-repeat: no-repeat
+}
+
+.course-info-teachers {
+	height: 130px
+}
+
+.course-info-teacher-item {
+	display: inline-block;
+	width: 75px;
+	height: 130px;
+	margin-left: 20px
+}
+
+.course-info-teacher-item img {
+	display: inline-block;
+	width: 70px;
+	height: 71px;
+	margin-top: 15px;
+	margin-bottom: 9px;
+	border-radius: 50%
+}
+
+.course-info-split {
+	background: #dfdfdf;
+	width: 386px;
+	height: 1px
+}
+
+.course-info-students {
+	width: 386px;
+	height: 90px
+}
+
+.course-info-price, .course-info-student-number {
+	height: 60px;
+	width: 170px;
+	margin-top: 26px;
+	display: inline-block
+}
+
+.course-info-student-number {
+	line-height: 12px;
+	vertical-align: bottom
+}
+
+.course-info-student-number>p {
+	display: inline-block;
+	width: 170px
+}
+
+.course-info-student-number span {
+	color: #f60
+}
+
+.course-info-price {
+	font-size: 24px;
+	color: #f60;
+	letter-spacing: -.58px;
+	text-align: right;
+	margin-right: 18px;
+	vertical-align: top
+}
+
+.course-info-price .course-info-price-discount {
+	max-width: 170px;
+	display: inline-block;
+	min-width: 10px;
+	text-align: right
+}
+
+.course-info-price .course-info-price-discount .discount-price .price-discount-number
+	{
+	font-size: 24px
+}
+
+.course-info-price .course-info-price-discount .discount-price .course-info-price-grey
+	{
+	font-size: 14px;
+	color: #999;
+	text-decoration: line-through;
+	display: none
+}
+
+.course-info-price .course-info-price-discount .discount-price .course-info-price-grey.show-price-grey
+	{
+	display: inline-block
+}
+
+.course-info-price .course-info-price-discount .course-info-short-title
+	{
+	font-size: 10px;
+	color: #f60;
+	text-align: center;
+	border: 1px solid #f60;
+	border-radius: 100px;
+	height: 16px;
+	display: none;
+	line-height: 14px;
+	margin-top: 2px
+}
+
+.course-info-price .course-info-price-discount .course-info-short-title.show-short-title
+	{
+	display: block
+}
+
+.course-info-price.not-show-commen, .course-info-price.not-show-discount
+	{
+	display: none
+}
+
+.course-info-price.show-commen {
+	display: inline-block
+}
+
+.course-info-price.show-discount {
+	display: inline-block;
+	margin-top: 18px
+}
+
+.course-info-student-number .show-false {
+	display: none
+}
+
+.course-info-student-number .student-str.show-false {
+	display: inline-block;
+	position: relative;
+	top: 18px
+}
+
+.lectureset .course-info-student-number .student-str.show-false {
+	display: inline-block;
+	position: relative;
+	top: 20px
+}
+
+.course-info-price span {
+	font-size: 36px
+}
+
+.truman-body-pagination {
+	display: none;
+	background: #fff;
+	width: 1200px;
+	height: 100px
+}
+
+.course-empty-image {
+/* 	background-repeat: no-repeat;
+	background-image:
+		url(../images/error/courseempty.png);
+	height: 400px;
+	width: 600px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 160px */
+	
+	background-repeat: no-repeat;
+	/* background-image:url(../images/error/courseempty.png); */
+ 	background-image: url(//fb.fbstatic.cn/web/images/error/courseempty.png); 
+	height: 400px;
+	width: 600px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 100px;
+}
+
+.can-not-buy-grey>span {
+	display: inline-block;
+	width: 100px;
+	height: 36px;
+	font-size: 20px;
+	background: #F0F0F8;
+	color: #999;
+	text-align: center
+}
+
+.can-not-buy-grey>span>text {
+	vertical-align: -8px
+}
+
+#truman-body-loading, #truman-body-nomore {
+	display: none
+}
+
+#truman-body-nomore p {
+	display: inline-block;
+	width: 1200px;
+	height: 40px;
+	color: #666
+}
+
+#truman-body-loading .spinner {
+	margin: 20px auto 40px;
+	width: 50px;
+	height: 60px;
+	text-align: center;
+	font-size: 10px
+}
+
+#truman-body-loading .spinner>div {
+	background-color: #09f;
+	height: 100%;
+	width: 6px;
+	display: inline-block;
+	-webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+	animation: stretchdelay 1.2s infinite ease-in-out
+}
+
+#truman-body-loading .spinner .rect2 {
+	-webkit-animation-delay: -1.1s;
+	animation-delay: -1.1s
+}
+
+#truman-body-loading .spinner .rect3 {
+	-webkit-animation-delay: -1s;
+	animation-delay: -1s
+}
+
+#truman-body-loading .spinner .rect4 {
+	-webkit-animation-delay: -.9s;
+	animation-delay: -.9s
+}
+
+#truman-body-loading .spinner .rect5 {
+	-webkit-animation-delay: -.8s;
+	animation-delay: -.8s
+}
+@-webkit-keyframes stretchdelay { 
+	0%,100%,40%{
+		-webkit-transform: scaleY(.4)
+	}
+	
+	20%{
+	-webkit-transform
+	:scaleY(1)
+	}
+}
+@keyframes stretchdelay { 
+	0%,100%,40%{
+		transform: scaleY(.4);
+		-webkit-transform: scaleY(.4)
+	}
+	20%{
+		transform
+		:scaleY(1)
+		;-webkit-transform
+		:scaleY(1)
+	}
+}

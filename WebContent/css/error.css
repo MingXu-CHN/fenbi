@@ -1,0 +1,68 @@
+#truman-body {
+	height: 740px
+}
+
+#truman-body-error {
+	display: inline-block;
+	min-width: 1000px;
+	background: #fff;
+	height: 720px
+}
+
+.error-image-404 {
+	background-image: url(../images/error/404.png);
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 600px;
+	margin-top: 160px;
+	margin-left: 180px
+}
+.error-image-500 {
+	background-image: url(../images/error/500.jpg);
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 600px;
+	margin-top: 160px;
+	margin-left: 180px
+}
+
+.error-button {
+	height: 100px;
+	margin-top: 60px
+}
+
+.error-button .error-fresh {
+	display: inline-block;
+	border: 1px solid #09f;
+	width: 198px;
+	height: 48px;
+	vertical-align: top;
+	cursor: pointer;
+	margin-left: -80px
+}
+
+.error-button .error-fresh span {
+	font-size: 20px;
+	color: #09f;
+	letter-spacing: .57px;
+	text-align: center;
+	vertical-align: -20px
+}
+
+.error-button .error-index {
+	display: inline-block;
+	background: #09f;
+	width: 200px;
+	height: 48px;
+	vertical-align: top;
+	cursor: pointer;
+	margin-left: 80px
+}
+
+.error-button .error-index span {
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: .57px;
+	text-align: center;
+	vertical-align: -20px
+}

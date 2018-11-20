@@ -1,0 +1,276 @@
+#userPayModal .modal-content>div,#userPayModal .modal-content>div .modal-header {
+	background: #fff;
+	width: 430px;
+	height: 518px
+}
+
+#userAddressModal .modal-content>div {
+	background: #fff;
+	width: 430px;
+	height: 471px
+}
+
+.weixin-pay-image,.weixin-pay-image img {
+	width: 146px;
+	background-repeat: no-repeat;
+	display: inline-block
+}
+
+.modal-title {
+	font-size: 30px;
+	color: #333;
+	letter-spacing: -.44px;
+	margin-top: 40px
+}
+
+.user-cost {
+	margin-top: 20px;
+	font-size: 24px;
+	color: #f60;
+	letter-spacing: -.58px
+}
+
+.user-cost span {
+	font-size: 48px;
+	color: #f60;
+	letter-spacing: -1.15px
+}
+
+.weixin-pay-image {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	height: 146px;
+	background-image: url(../images/order/loadingpay1.79ec1cfe.png);
+	animation: loadingpay .8s;
+	-moz-animation: loadingpay .8s;
+	-webkit-animation: loadingpay .8s;
+	-o-animation: loadingpay .8s;
+	animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite
+}
+
+.weixin-pay-image img {
+	margin-top: 10px;
+	height: 0;
+	border: 0
+}
+
+@keyframes loadingpay {
+	0% {
+		background-image: url(../images/order/loadingpay1.79ec1cfe.png)
+	}
+
+	33% {
+		background-image: url(../images/order/loadingpay2.14d94e40.png)
+	}
+
+	66% {
+		background-image: url(../images/order/loadingpay3.ae645b0d.png)
+	}
+}
+
+@-webkit-keyframes loadingpay {
+	0% {
+		background-image: url(../images/order/loadingpay1.79ec1cfe.png)
+	}
+
+	33% {
+		background-image: url(../images/order/loadingpay2.14d94e40.png)
+	}
+
+	66% {
+		background-image: url(../images/order/loadingpay3.ae645b0d.png)
+	}
+}
+
+@-moz-keyframes loadingpay {
+	0% {
+		background-image: url(../images/order/loadingpay1.79ec1cfe.png)
+	}
+
+	33% {
+		background-image: url(../images/order/loadingpay2.14d94e40.png)
+	}
+
+	66% {
+		background-image: url(../images/order/loadingpay3.ae645b0d.png)
+	}
+}
+
+@-o-keyframes loadingpay {
+	0% {
+		background-image: url(../images/order/loadingpay1.79ec1cfe.png)
+	}
+
+	33% {
+		background-image: url(../images/order/loadingpay2.14d94e40.png)
+	}
+
+	66% {
+		background-image: url(../images/order/loadingpay3.ae645b0d.png)
+	}
+}
+
+.zhifubao-pay-image {
+	margin-top: 45px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	display: inline-block;
+	width: 160px;
+	height: 146px;
+	background-image: url(../images/order/loadingpay1.79ec1cfe.png);
+	animation: loadingpay .8s;
+	-moz-animation: loadingpay .8s;
+	-webkit-animation: loadingpay .8s;
+	-o-animation: loadingpay .8s;
+	animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite
+}
+
+.has-pay button {
+	margin-top: 40px;
+	background: #09f;
+	width: 330px;
+	height: 50px;
+	font-size: 22px;
+	color: #fff;
+	letter-spacing: -.21px;
+	line-height: 22px
+}
+
+.other-pay-way {
+	margin-top: 20px
+}
+
+.other-pay-way a {
+	font-size: 14px;
+	color: #666;
+	letter-spacing: -.21px
+}
+
+.modal-sub-title {
+	margin-top: 20px;
+	font-size: 18px;
+	color: #666;
+	letter-spacing: -.26px
+}
+
+#addressPage .modal-title {
+	font-size: 20px;
+	color: #666;
+	letter-spacing: -.29px;
+	margin-top: 0
+}
+
+#saveaddress {
+	display: inline-block;
+	background: #09f;
+	border-radius: 4px;
+	width: 200px;
+	height: 40px;
+	margin-left: 30px;
+	cursor: pointer
+}
+
+#detailaddress,.btn-group>.btn {
+	border: 1px solid #dfdfdf;
+	display: inline-block
+}
+
+#saveaddress a {
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 0;
+	line-height: 18px;
+	text-align: left;
+	vertical-align: -15px;
+	text-decoration: none
+}
+
+.btn-group>.btn>text,.dropdown-menu>li>a {
+	font-size: 14px;
+	color: #333;
+	letter-spacing: 0;
+	text-align: left
+}
+
+.region-filter {
+	display: inline-block;
+	width: 600px;
+	height: 115px
+}
+
+#detailaddress {
+	background: #fafafa;
+	width: 598px;
+	height: 100px;
+	margin-top: 15px
+}
+
+.btn-group {
+	margin-left: 0
+}
+
+#districtCity,#districtCounty {
+	margin-left: 10px
+}
+
+.btn-group>.btn {
+	width: 110px;
+	height: 28px;
+	text-align: left
+}
+
+.btn-group>.btn>text {
+	display: inline-block;
+	width: 60px
+}
+
+.dropdown-menu {
+	max-height: 150px;
+	overflow-y: scroll
+}
+
+.modal-header.needaddress-header {
+	min-height: 50px
+}
+
+.modal-header.needaddress-header>.modal-title {
+	font-size: 20px;
+	color: #666;
+	letter-spacing: -.29px;
+	margin-top: 0
+}
+
+.modal-body.needaddress-body {
+	min-height: 140px
+}
+
+.needaddress-body {
+	font-size: 20px;
+	color: #666;
+	letter-spacing: -.29px;
+	line-height: 40px;
+	text-align: center
+}
+
+.needaddress-body>p {
+	display: inline-block;
+	width: 316px
+}
+
+.needaddress-body>p>text {
+	color: #09f
+}
+
+.needaddress-body-first {
+	margin-top: 35px
+}
+
+#detailaddress_id {
+	margin-top: 15px;
+}

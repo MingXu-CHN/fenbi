@@ -1,0 +1,398 @@
+#truman-body {
+	min-width: 1200px;
+	background: #fff
+}
+
+#download-tabs-header {
+	min-width: 1200px;
+	background: #f0f0f8
+}
+
+#download-tabs-body {
+	min-width: 1200px;
+	background-color: #fff
+}
+
+#download-header {
+	display: inline-block;
+	height: 100px;
+	min-width: 1200px
+}
+
+.truman-body-download-header {
+	display: inline-block;
+	background-color: #f0f0f8;
+	height: 100px;
+	width: 160px
+}
+
+.truman-body-download-header .header-active {
+	color: #09f
+}
+
+.truman-body-download-header a {
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	width: 90px;
+	font-size: 14px;
+	color: #666
+}
+
+.truman-body-download-header a span {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 33%
+}
+
+.fenbijiaoyu-text, .fenbikaoyan-text, .fenbishenlun-text,
+	.fenbizhiboke-right-text {
+	margin-bottom: 60px;
+	line-height: 30px
+}
+
+.truman-body-download-header a:hover {
+	color: #09f
+}
+
+.truman-body-download-header a:hover .pc-filter-image {
+	background-image: url(../images/download/pcactive.png)
+}
+
+.truman-body-download-header a:hover .fenbi-filter-image {
+	background-image:
+		url(../images/download/fenbiactive.png)
+}
+
+.truman-body-download-header a:hover .fenbishenlun-filter-image {
+	background-image:
+		url(../images/download/fenbiactive.png)
+}
+
+.truman-body-download-header a:hover .fenbikaoyan-filter-image {
+	background-image:
+		url(../images/download/fenbiactive.png)
+}
+
+.truman-body-download-body {
+	display: inline-block;
+	min-height: 790px;
+	min-width: 1200px
+}
+
+.fenbi-filter-image, .fenbikaoyan-filter-image,
+	.fenbishenlun-filter-image, .pc-filter-image {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-size: contain;
+	background-repeat: no-repeat
+}
+
+.pc-filter-image {
+	background-image:
+		url(../images/download/pc.png)
+}
+
+.fenbi-filter-image {
+	background-image:
+		url(../images/download/fenbi.png)
+}
+
+.fenbishenlun-filter-image {
+	background-image:
+		url(../images/download/fenbi.png)
+}
+
+.fenbikaoyan-filter-image {
+	background-image:
+		url(../images/download/fenbi.png)
+}
+
+.header-active .pc-filter-image {
+	background-image:
+		url(../images/download/pcactive.png);
+	color: #09f
+}
+
+.header-active .fenbi-filter-image {
+	background-image:
+		url(../images/download/fenbiactive.png);
+	color: #09f
+}
+
+.header-active .fenbishenlun-filter-image {
+	background-image:
+		url(../images/download/fenbiactive.png);
+	color: #09f
+}
+
+.header-active .fenbikaoyan-filter-image {
+	background-image:
+		url(../images/download/fenbiactive.png);
+	color: #09f
+}
+
+#fenbizhiboke {
+	height: 600px
+}
+
+#fenbizhiboke .fenbizhiboke-left {
+	display: inline-block;
+	height: 600px;
+	width: 60%;
+	vertical-align: top;
+	background-image:
+		url(../images/download/pcbody.png);
+	background-repeat: no-repeat;
+	margin-top: 90px;
+	margin-left: -25px
+}
+
+#fenbizhiboke .fenbizhiboke-right {
+	display: inline-block;
+	height: 600px;
+	width: 39%;
+	vertical-align: top
+}
+
+.fenbizhiboke-right-text {
+	font-size: 20px;
+	color: #333;
+	letter-spacing: -.36px;
+	text-align: left;
+	margin-top: 200px;
+	width: 409px
+}
+
+.fenbizhiboke-right-text>p {
+	line-height: 30px
+}
+
+.fenbizhiboke-right-version {
+	font-size: 18px;
+	color: #666;
+	letter-spacing: -.32px;
+	text-align: left;
+	margin-top: 20px
+}
+
+#download-button {
+	width: 200px;
+	height: 50px;
+	font-size: 22px;
+	background-color: #09f;
+	color: #fff
+}
+
+#download-button .download-button-icon {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-image:
+		url(../images/download/pcdownload.png);
+	width: 30px;
+	height: 30px;
+	vertical-align: -8px
+}
+
+.fenbijiaoyu-content, .fenbijiaoyu-image {
+	vertical-align: top;
+	display: inline-block
+}
+
+#fenbijiaoyu {
+	height: 681px
+}
+
+.fenbijiaoyu-image {
+	width: 400px;
+	height: 681px;
+	margin-top: -6px;
+	margin-left: 34px
+}
+
+.fenbijiaoyu-image-detail {
+	background-image:
+		url(../images/download/fenbibody.885af6ea.png);
+	background-repeat: no-repeat;
+	height: 570px;
+	width: 400px;
+	margin-left: 61px;
+	margin-top: 100px
+}
+
+.fenbijiaoyu-content {
+	width: 650px;
+	height: 721px
+}
+
+.fenbijiaoyu-text {
+	width: 428px;
+	font-size: 20px;
+	color: #333;
+	letter-spacing: -.36px;
+	text-align: center;
+	margin-top: 180px;
+	margin-left: 115px
+}
+
+.fenbijiaoyu-text>p {
+	line-height: 30px
+}
+
+.fenbijiaoyu-download {
+	height: 266px
+}
+
+#fenbijiaoyucode {
+	text-align: center;
+	display: inline-block;
+	width: 146px;
+	height: 146px;
+	margin-left: 24px
+}
+
+.fenbijiaoyu-download-text {
+	margin-left: 30px;
+	display: inline-block;
+	font-size: 18px;
+	color: #666;
+	letter-spacing: -.32px;
+	text-align: center;
+	vertical-align: 50px;
+	margin-top: 22px
+}
+
+#fenbishenlun {
+	height: 721px
+}
+
+.fenbishenlun-image {
+	display: inline-block;
+	width: 400px;
+	height: 721px;
+	vertical-align: top;
+	margin-top: 2px;
+	margin-left: 18px
+}
+
+.fenbishenlun-image-detail {
+	background-image:
+		url(../images/download/shenlunbody.43dcb66e.png);
+	background-repeat: no-repeat;
+	height: 570px;
+	width: 350px;
+	margin-left: 60px;
+	margin-top: 100px
+}
+
+.fenbishenlun-content {
+	display: inline-block;
+	width: 650px;
+	height: 721px;
+	vertical-align: top
+}
+
+.fenbishenlun-text {
+	width: 428px;
+	font-size: 20px;
+	color: #333;
+	letter-spacing: -.36px;
+	text-align: center;
+	margin-top: 200px;
+	margin-left: 115px
+}
+
+.fenbishenlun-text>p {
+	line-height: 30px
+}
+
+.fenbishenlun-download {
+	height: 266px
+}
+
+#shenluncode {
+	text-align: center;
+	display: inline-block;
+	width: 146px;
+	height: 146px;
+	margin-left: 24px
+}
+
+.fenbishenlun-download-text {
+	margin-left: 30px;
+	display: inline-block;
+	font-size: 18px;
+	color: #666;
+	letter-spacing: -.32px;
+	text-align: center;
+	vertical-align: 50px;
+	margin-top: 22px
+}
+
+.fenbikaoyan-content, .fenbikaoyan-image {
+	vertical-align: top;
+	display: inline-block
+}
+
+#fenbikaoyan {
+	height: 721px
+}
+
+.fenbikaoyan-image {
+	width: 400px;
+	height: 721px
+}
+
+.fenbikaoyan-image-detail {
+	background-image:
+		url(../images/download/kaoyanbody.71fc2462.png);
+	background-repeat: no-repeat;
+	height: 570px;
+	width: 400px;
+	margin-left: 78px;
+	margin-top: 94px
+}
+
+.fenbikaoyan-content {
+	width: 650px;
+	height: 721px;
+	margin-left: 30px
+}
+
+.fenbikaoyan-text {
+	width: 428px;
+	font-size: 20px;
+	color: #333;
+	letter-spacing: -.36px;
+	text-align: center;
+	margin-top: 180px;
+	margin-left: 115px
+}
+
+.fenbikaoyan-text>p {
+	line-height: 30px
+}
+
+.fenbikaoyan-download {
+	height: 266px
+}
+
+#kaoyancode {
+	text-align: center;
+	display: inline-block;
+	width: 146px;
+	height: 146px;
+	margin-left: 24px
+}
+
+.fenbikaoyan-download-text {
+	margin-left: 30px;
+	display: inline-block;
+	font-size: 18px;
+	color: #666;
+	letter-spacing: -.32px;
+	text-align: left;
+	vertical-align: 50px;
+	margin-top: 22px
+}

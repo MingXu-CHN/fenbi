@@ -1,0 +1,367 @@
+#province_code,#city_code,#county_code{
+	height: 30px;
+}
+
+#truman-body {
+	min-width: 1200px;
+	background: #fff
+}
+
+#detailaddress {
+	background: #fafafa;
+	width: 598px;
+	height: 100px;
+	margin-top: 15px
+}
+
+#address-detail {
+	display: inline-block;
+	width: 1200px;
+	background: #fff;
+	min-height: 760px
+}
+
+.course-address-navi {
+	height: 69px
+}
+
+.course-address-navi span {
+	display: inline-block;
+	margin-top: 22px;
+	font-size: 24px;
+	color: #333;
+	letter-spacing: -.43px;
+	line-height: 24px;
+	text-align: left
+}
+
+.truman-body-address {
+	background: #fff;
+	border: 1px solid #dfdfdf;
+	width: 1198px;
+	min-height: 420px;
+	margin-bottom: 25px
+}
+.save-user-address {
+	margin-top: 30px
+}
+
+.user-address-list-info {
+	margin-top: 60px;
+	margin-left: 30px;
+	width: 1140px
+}
+
+.user-address-list {
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 1140px
+}
+
+.user-address-list table {
+	border: 1px solid #dfdfdf;
+	width: 1138px;
+	height: 38px;
+	font-size: 14px;
+	color: #333;
+	letter-spacing: -.34px;
+	line-height: 20px
+}
+
+.user-address-list thead tr {
+	background: #f0f0f8;
+	border: 1px solid #dfdfdf;
+	width: 938px;
+	height: 38px;
+	font-size: 13px
+}
+
+.user-address-list tbody tr {
+	border: 1px solid #dfdfdf;
+	width: 938px;
+	height: 65px
+}
+
+.user-address-list tbody tr:hover {
+	background: #f0f0f8;
+	cursor: pointer
+}
+
+.tb-choose-radio,.user-address-list .th-choose-radio {
+	width: 55px;
+	height: 40px
+}
+
+.tb-region,.user-address-list .th-region {
+	width: 240px;
+	height: 40px;
+	padding-right: 15px
+}
+
+.tb-address,.user-address-list .th-address {
+	width: 350px;
+	min-height: 40px;
+	padding-right: 20px
+}
+
+.tb-name,.user-address-list .th-name {
+	width: 125px;
+	min-height: 40px;
+	padding-right: 20px
+}
+
+.tb-phone,.user-address-list .th-phone {
+	width: 150px;
+	height: 40px
+}
+
+.tb-action,.user-address-list .th-action {
+	width: 110px;
+	height: 40px
+}
+
+.tb-default,.user-address-list .th-default {
+	height: 40px
+}
+
+.user-address-list .tb-choose-radio input {
+	margin-left: 19px
+}
+
+.user-address-list .isdefault button,.user-address-list .notdefault button {
+	width: 78px;
+	height: 22px;
+	font-size: 14px;
+	letter-spacing: -.34px;
+	line-height: 16px;
+	margin-left: 17px
+}
+
+.user-address-list .tb-action a {
+	font-size: 14px;
+	color: #09f;
+	letter-spacing: -.34px;
+	line-height: 16px;
+	text-decoration: none;
+	cursor: pointer
+}
+
+.user-address-list .tb-action {
+	font-size: 14px;
+	color: #09f;
+	letter-spacing: -.34px;
+	line-height: 16px
+}
+
+.user-address-list .isdefault button {
+	background: rgba(255,102,0,.2);
+	border: 1px solid #f60;
+	border-radius: 100px;
+	color: #f60
+}
+
+.user-address-list .notdefault button {
+	display: none;
+	background: #f60;
+	border: 1px solid #f60;
+	border-radius: 100px;
+	color: #fff
+}
+
+.addressradio,.addressradio.selected {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-repeat: no-repeat;
+	margin-left: 18px
+}
+
+.user-address-list .notdefault:hover button {
+	display: inline-block;
+	cursor: pointer
+}
+
+.addressradio {
+	background-image: url(../images/order/notselected.f19f6a08.png);
+	cursor: pointer
+}
+
+.addressradio.selected {
+	background-image: url(../images/order/selected.a92be161.png)
+}
+
+#confirmaddress {
+	background: #09f;
+	border-radius: 4px;
+	width: 200px;
+	height: 40px;
+	margin-left: 500px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	cursor: pointer
+}
+
+#confirmaddress a {
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 0;
+	line-height: 18px;
+	text-align: left;
+	text-decoration: none;
+	vertical-align: -15px
+}
+
+.user-address-input {
+	display: block;
+	height: 70px;
+	margin-left: 30px;
+	margin-top: 20px
+}
+
+.address-illegal-tooltip {
+	visibility: hidden;
+	margin-top: 10px;
+	margin-left: 105px;
+	color: red
+}
+
+.user-address-input-title {
+	display: inline-block;
+	width: 100px;
+	margin-top: 7px;
+	font-size: 16px;
+	color: #333;
+	letter-spacing: 0;
+	text-align: left;
+	vertical-align: top
+}
+
+.user-address-input-title text {
+	color: red
+}
+
+.user-address-input input {
+	display: inline-block;
+	background: #fafafa;
+	border: 1px solid #dfdfdf;
+	width: 398px;
+	height: 32px
+}
+
+.user-address-detailinput {
+	display: inline-block;
+	height: 120px;
+	margin-left: 30px
+}
+
+#canceleditaddress,#saveaddress,#saveeditaddress {
+	display: inline-block;
+	background: #09f;
+	border-radius: 4px;
+	width: 200px;
+	height: 40px;
+	margin-left: 30px;
+	cursor: pointer
+}
+
+#canceleditaddress,#saveeditaddress {
+	display: none
+}
+
+#canceleditaddress a,#saveaddress a,#saveeditaddress a {
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 0;
+	line-height: 18px;
+	text-align: center;
+	vertical-align: -15px;
+	text-decoration: none;
+	cursor: pointer
+}
+
+.btn-group>.btn>text,.dropdown-menu>li>a {
+	font-size: 14px;
+	color: #333;
+	letter-spacing: 0
+}
+
+.region-filter {
+	display: inline-block;
+	width: 600px;
+	height: 115px
+}
+
+.region-filter textarea {
+	display: inline-block;
+	background: #fafafa;
+	border: 1px solid #dfdfdf;
+	width: 600px;
+	height: 68px;
+	margin-top: 15px;
+	word-wrap: break-word
+}
+
+.btn-group {
+	margin-left: 0
+}
+
+#districtCity,#districtCounty {
+	margin-left: 10px
+}
+
+.btn-group>.btn {
+	display: inline-block;
+	border: 1px solid #dfdfdf;
+	width: 140px;
+	height: 28px;
+	text-align: left
+}
+
+.btn-group>.btn>text {
+	display: inline-block;
+	width: 100px;
+	text-align: left
+}
+
+.dropdown-menu>li>a {
+	text-align: left
+}
+
+.dropdown-menu {
+	max-height: 150px;
+	overflow-y: scroll
+}
+
+.modal-header.addressmax-header {
+	min-height: 50px
+}
+
+.modal-body.addressmax-body {
+	min-height: 180px
+}
+
+.addressmax-body {
+	font-size: 20px;
+	color: #666;
+	letter-spacing: -.29px;
+	line-height: 40px;
+	text-align: center
+}
+
+.addressmax-body>p {
+	display: inline-block;
+	width: 316px
+}
+
+.addressmax-body-first {
+	margin-top: 35px
+}
+
+.tooltip-icon {
+	display: inline-block;
+	background-image: url(../images/login/tooltip.67c428f9.png);
+	background-repeat: no-repeat;
+	width: 12px;
+	height: 12px;
+	vertical-align: -2px
+}
